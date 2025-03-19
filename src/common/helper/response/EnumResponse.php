@@ -15,7 +15,7 @@ use yii\base\BaseObject;
  * class EnumResponse
  *
  * @author  Binh Nguyen <binhnt@dtsmart.vn>
- * @package app\common\helper\response
+ * @package app\common\helpers\response
  * Date: 10/21/2022
  * Time: 11:21 PM
  * @version 1.0.0

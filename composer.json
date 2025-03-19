@@ -8,7 +8,7 @@
     "require": {
         "yidas/yii2-composer-bower-skip": "~2.0.13",
         "yiisoft/yii2": "~2.0.45",
-        "vlucas/phpdotenv": "^5.4",
+        "vlucas/phpdotenv": "^5.6",
         "samdark/yii2-psr-log-target": "*",
         "monolog/monolog": "*",
         "sentry/sdk": "^3.1",

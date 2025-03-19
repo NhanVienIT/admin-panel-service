@@ -1,17 +1,6 @@
 <?php
 
-
-namespace app\common\helper\response;
-
-/**
- * class ApiConstant
- *
- * @author  Binh Nguyen <binhnt@dtsmart.vn>
- * @package app\common\helpers\response
- * Date: 10/21/2022
- * Time: 11:21 PM
- * @version 1.0.0
- */
+namespace app\helpers;
 class ApiConstant
 {
     /**
@@ -24,12 +13,13 @@ class ApiConstant
      * 405: INVALID METHOD
      * 500: General error response, return if catch exception.
      */
-    CONST SC_OK = 200;
-    CONST SC_NO_RESULT = 204;
-    CONST SC_BAD_REQUEST = 400;
-    CONST SC_UNAUTHORIZED = 401;
-    CONST SC_INVALID_METHOD = 405;
-    CONST SC_EXCEPTION = 500;
+    const SC_OK = 200;
+    const SC_NO_RESULT = 204;
+    const SC_BAD_REQUEST = 400;
+    const SC_UNAUTHORIZED = 401;
+    const SC_INVALID_METHOD = 405;
+    const SC_EXCEPTION = 500;
+    const SR_NOT_FOUND = 404;
 
     const STATUS_FAIL = 'FAIL';
     const STATUS_OK = 'OK';

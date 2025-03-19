@@ -4,11 +4,9 @@
  * gci_clouds Project
  */
 
-namespace app\api\v1;
+namespace app\modules\api\v1;
 
 
-use DateTimeZone;
-use Yii;
 use yii\filters\Cors;
 
 /**
@@ -30,8 +28,8 @@ class Module extends \yii\base\Module
     {
         parent::init();
         $this->modules = [
-            'test' => [
-                'class' => test\Module::class,
+            'admin' => [
+                'class' => \app\modules\api\v1\test\Module::class,
             ],
         ];
     }
