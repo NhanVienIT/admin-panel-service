@@ -29,5 +29,8 @@ $components = [
         'class' => 'yii\web\Response',
         'format' => \yii\web\Response::FORMAT_JSON,
     ],
+    'authManager' => [
+        'class' => 'yii\rbac\DbManager',
+    ],
 ];
 return $components;

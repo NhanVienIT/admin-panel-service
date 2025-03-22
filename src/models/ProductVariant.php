@@ -9,5 +9,8 @@ use \app\models\base\ProductVariant as BaseProductVariant;
  */
 class ProductVariant extends BaseProductVariant
 {
-
+    public function formName()
+    {
+        return ' ';
+    }
 }

@@ -9,5 +9,8 @@ use \app\models\base\Review as BaseReview;
  */
 class Review extends BaseReview
 {
-
+    public function formName()
+    {
+        return ' ';
+    }
 }

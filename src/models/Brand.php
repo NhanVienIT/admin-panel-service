@@ -9,5 +9,8 @@ use \app\models\base\Brand as BaseBrand;
  */
 class Brand extends BaseBrand
 {
-
+    public function formName()
+    {
+        return ' ';
+    }
 }

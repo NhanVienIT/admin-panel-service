@@ -9,5 +9,8 @@ use \app\models\base\Wishlist as BaseWishlist;
  */
 class Wishlist extends BaseWishlist
 {
-
+    public function formName()
+    {
+        return ' ';
+    }
 }
